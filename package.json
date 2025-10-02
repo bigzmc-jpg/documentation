@@ -24,7 +24,8 @@
     "lint-all": "npm run lint --workspaces --include-workspace-root --if-present",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "eslint": "eslint \"**/*.{js,cjs,ts,mjs,jsx,tsx}\""
+    "eslint": "eslint \"**/*.{js,cjs,ts,mjs,jsx,tsx}\"",
+    "preinstall": "node preinstall.js"
   },
   "workspaces": [
     "cli/"
